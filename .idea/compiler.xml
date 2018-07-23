@@ -2,16 +2,25 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springholleworld" />
+        <module name="springactuator" />
+        <module name="springadmin" />
+        <module name="springaoplog" />
+        <module name="springexception" />
+        <module name="springlogback" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="multi-st" target="1.8" />
-      <module name="springholleworld" target="1.8" />
+      <module name="springactuator" target="1.8" />
+      <module name="springadmin" target="1.8" />
+      <module name="springaoplog" target="1.8" />
+      <module name="springexception" target="1.8" />
+      <module name="springlogback" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

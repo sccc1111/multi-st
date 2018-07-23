@@ -2,6 +2,11 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springactuator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springadmin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springaoplog" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springexception" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springholleworld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springlogback" charset="UTF-8" />
   </component>
 </project>

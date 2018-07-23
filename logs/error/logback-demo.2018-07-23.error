@@ -1,0 +1,4 @@
+【xkcoding】2018-07-23 14:03:28.940 ERROR [main] logback.LogApp - Spring boot启动初始化了 109 个 Bean
+【xkcoding】2018-07-23 14:03:28.940 ERROR [main] logback.LogApp - 【SpringBootDemoLogbackApplication】启动异常：
+java.lang.ArithmeticException: / by zero
+	at logback.LogApp.main(LogApp.java:24)

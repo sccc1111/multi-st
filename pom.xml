@@ -10,6 +10,11 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>springholleworld</module>
+        <module>springactuator</module>
+        <module>springadmin</module>
+        <module>springlogback</module>
+        <module>springaoplog</module>
+        <module>springexception</module>
     </modules>
 
     <parent>
