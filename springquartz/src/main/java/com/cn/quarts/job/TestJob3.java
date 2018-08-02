@@ -9,9 +9,9 @@ import java.io.Serializable;
 /**
  * Created by songbo on 2018/7/26.
  */
-public class TestJob2 implements Job,Serializable {
+public class TestJob3 implements Job,Serializable {
     @Override
     public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
-        System.out.println("=================TestJob2 执行==============");
+        System.out.println("=================TestJob3 执行==============");
     }
 }

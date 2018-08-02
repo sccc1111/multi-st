@@ -9,7 +9,7 @@ import java.util.Date;
  * Created by songbo on 2018/7/24.
  */
 @Data
-public class UserDto implements Serializable {
+public class User implements Serializable {
 
     private static final long serialVersionUID = 1442134563392432775L;
 

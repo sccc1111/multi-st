@@ -11,5 +11,19 @@
 
     <artifactId>spring-jpa</artifactId>
 
+    <properties>
+        <druid.starter.version>1.1.5</druid.starter.version>
+    </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>${druid.starter.version}</version>
+        </dependency>
+    </dependencies>
 </project>

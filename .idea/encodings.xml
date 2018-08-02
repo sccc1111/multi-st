@@ -6,7 +6,17 @@
     <file url="file://$PROJECT_DIR$/springadmin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springaoplog" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springexception" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springexport" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springfineReport" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springholleworld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springjdbtemplate" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springjpa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springlogback" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmybaits" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmybaits" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springquartz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springredis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springschedule" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springwar" charset="UTF-8" />
   </component>
 </project>

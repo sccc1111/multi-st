@@ -7,7 +7,15 @@
       <module fileurl="file://$PROJECT_DIR$/springadmin/springadmin.iml" filepath="$PROJECT_DIR$/springadmin/springadmin.iml" />
       <module fileurl="file://$PROJECT_DIR$/springaoplog/springaoplog.iml" filepath="$PROJECT_DIR$/springaoplog/springaoplog.iml" />
       <module fileurl="file://$PROJECT_DIR$/springexception/springexception.iml" filepath="$PROJECT_DIR$/springexception/springexception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springexport/springexport.iml" filepath="$PROJECT_DIR$/springexport/springexport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springfineReport/springfineReport.iml" filepath="$PROJECT_DIR$/springfineReport/springfineReport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springjdbtemplate/springjdbtemplate.iml" filepath="$PROJECT_DIR$/springjdbtemplate/springjdbtemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springjpa/springjpa.iml" filepath="$PROJECT_DIR$/springjpa/springjpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/springlogback/springlogback.iml" filepath="$PROJECT_DIR$/springlogback/springlogback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmybaits/springmybaits.iml" filepath="$PROJECT_DIR$/springmybaits/springmybaits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springquartz/springquartz.iml" filepath="$PROJECT_DIR$/springquartz/springquartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springredis/springredis.iml" filepath="$PROJECT_DIR$/springredis/springredis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springschedule/springschedule.iml" filepath="$PROJECT_DIR$/springschedule/springschedule.iml" />
     </modules>
   </component>
 </project>

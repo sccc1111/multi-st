@@ -11,16 +11,33 @@
         <module name="springadmin" />
         <module name="springaoplog" />
         <module name="springexception" />
+        <module name="springexport" />
+        <module name="springfineReport" />
+        <module name="springjdbtemplate" />
+        <module name="springjpa" />
         <module name="springlogback" />
+        <module name="springmybaits" />
+        <module name="springquartz" />
+        <module name="springredis" />
+        <module name="springschedule" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="multi-st" target="1.8" />
-      <module name="springactuator" target="1.8" />
-      <module name="springadmin" target="1.8" />
-      <module name="springaoplog" target="1.8" />
-      <module name="springexception" target="1.8" />
-      <module name="springlogback" target="1.8" />
+      <module name="multi-st" target="1.7" />
+      <module name="springactuator" target="1.7" />
+      <module name="springadmin" target="1.7" />
+      <module name="springaoplog" target="1.7" />
+      <module name="springexception" target="1.7" />
+      <module name="springexport" target="1.7" />
+      <module name="springfineReport" target="1.7" />
+      <module name="springjdbtemplate" target="1.7" />
+      <module name="springjpa" target="1.7" />
+      <module name="springlogback" target="1.7" />
+      <module name="springmybaits" target="1.7" />
+      <module name="springquartz" target="1.7" />
+      <module name="springredis" target="1.7" />
+      <module name="springschedule" target="1.7" />
+      <module name="springwar" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

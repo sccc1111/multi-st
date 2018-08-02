@@ -15,6 +15,15 @@
         <module>springlogback</module>
         <module>springaoplog</module>
         <module>springexception</module>
+        <module>springjpa</module>
+        <module>springmybaits</module>
+        <module>springmybaits</module>
+        <module>springjdbtemplate</module>
+        <module>springredis</module>
+        <module>springschedule</module>
+        <module>springquartz</module>
+        <module>springexport</module>
+        <module>springfineReport</module>
     </modules>
 
     <parent>

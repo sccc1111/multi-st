@@ -1,6 +1,8 @@
 package jpa;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 import org.hibernate.annotations.DynamicUpdate;
 
 import javax.persistence.*;
@@ -10,9 +12,9 @@ import java.util.Date;
  * Created by songbo on 2018/7/24.
  */
 @Entity
-@Data
-@DynamicUpdate
-public class JpaUser {
+@Getter
+@Setter
+public class SysUser {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

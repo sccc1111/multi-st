@@ -31,8 +31,21 @@ public class AopLog {
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
         HttpServletRequest request = attributes.getRequest();
 
+        String ip=request.getHeader("x-forwarded-for");
+        if(ip==null || ip.length()==0 || "unknown".equalsIgnoreCase(ip)){
+            ip=request.getHeader("Proxy-Client-IP");
+        }
+        if(ip==null || ip.length()==0 || "unknown".equalsIgnoreCase(ip)){
+            ip=request.getHeader("WL-Proxy-Client-IP");
+        }
+        if(ip==null || ip.length()==0 || "unknown".equalsIgnoreCase(ip)){
+            ip=request.getHeader("X-Real-IP");
+        }
+        if(ip==null || ip.length()==0 || "unknown".equalsIgnoreCase(ip)){
+            ip=request.getRemoteAddr();
+        }
         log.info("【请求 URL】：{}", request.getRequestURL());
-        log.info("【请求 IP】：{}", request.getRemoteHost());
+        log.info("【请求 IP】：{}", ip);
         log.info("【请求类名】：{}，【请求方法名】：{}", joinPoint.getSignature().getDeclaringTypeName(), joinPoint.getSignature().getName());
         Map parameterMap = request.getParameterMap();
         log.info("【请求参数】：{}，", JsonMapper.obj2Str(parameterMap));
